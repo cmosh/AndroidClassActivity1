@@ -1,20 +1,20 @@
-package me.makamara.clive.menuactiviity;
+package me.makamara.clive.menuactivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class FourthActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fourth);
+        setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
 
     }
 
@@ -32,11 +32,26 @@ public class FourthActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        switch (id) {
+            case R.id.action_two:
+                startActivity(new Intent(this, SecondActivity.class));
+                break;
+            case R.id.action_three:
+                startActivity(new Intent(this, ThirdActivity.class));
+                break;
+            case R.id.action_four:
+                startActivity(new Intent(this, FourthActivity.class));
+                break;
+            case R.id.action_five:
+                startActivity(new Intent(this, FifthActivity.class));
+                break;
         }
 
+        //noinspection SimplifiableIfStatement
         return super.onOptionsItemSelected(item);
     }
+
+
+
+
 }

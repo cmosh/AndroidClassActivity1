@@ -1,4 +1,4 @@
-package me.makamara.clive.menuactiviity;
+package me.makamara.clive.menuactivity;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -8,3 +8,4 @@ build/
 captures/
 .externalNativeBuild
 *.apk
+app/app-release.apk

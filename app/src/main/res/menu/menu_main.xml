@@ -1,17 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="me.makamara.clive.menuactiviity.MainActivity">
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/action_one"
-        android:orderInCategory="100"
-        android:title="@string/action_one"
-        app:showAsAction="never" />
+    tools:context="me.makamara.clive.menuactivity.MainActivity">
     <item
         android:id="@+id/action_two"
         android:orderInCategory="100"
