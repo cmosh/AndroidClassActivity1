@@ -44,7 +44,8 @@ public class FourthActivity extends AppCompatActivity {
                         "Long press the "+ itemValue+" for context menu", Toast.LENGTH_LONG)
                         .show();
 
-                ;}});
+            }
+        });
 
 
     }

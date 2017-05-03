@@ -25,16 +25,13 @@
 
             </intent-filter>
         </activity>
-        <activity
-            android:name="me.makamara.clive.menuactivity.ThirdActivity">
+        <activity android:name="me.makamara.clive.menuactivity.ThirdActivity">
 
         </activity>
-        <activity
-            android:name="me.makamara.clive.menuactivity.FourthActivity">
+        <activity android:name="me.makamara.clive.menuactivity.FourthActivity">
 
         </activity>
-        <activity
-            android:name="me.makamara.clive.menuactivity.FifthActivity">
+        <activity android:name="me.makamara.clive.menuactivity.FifthActivity">
 
         </activity>
     </application>

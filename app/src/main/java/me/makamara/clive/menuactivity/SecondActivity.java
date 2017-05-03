@@ -2,7 +2,6 @@ package me.makamara.clive.menuactivity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.view.ActionMode;
 import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -106,7 +105,8 @@ public class SecondActivity extends AppCompatActivity {
                         "Long press the "+ itemValue+" for context menu", Toast.LENGTH_LONG)
                         .show();
 
-            ;}});
+            }
+        });
 
     }
 
