@@ -19,8 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity            android:name="me.makamara.clive.menuactivity.SecondActivity">
+        <activity android:name="me.makamara.clive.menuactivity.SecondActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
 
+            </intent-filter>
         </activity>
         <activity
             android:name="me.makamara.clive.menuactivity.ThirdActivity">
