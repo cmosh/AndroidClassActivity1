@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">MenuActiviity</string>
     <string name="action_settings">Settings</string>
+    <string name="action_one">First Activity</string>
+    <string name="action_two">Second Activity</string>
+    <string name="action_three">Third Activity</string>
+    <string name="action_four">Fourth Activity</string>
+    <string name="action_five">Fifth Activity</string>
+
 </resources>

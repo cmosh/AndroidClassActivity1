@@ -1,4 +1,4 @@
-package com.example.clive.menuactiviity;
+package me.makamara.clive.menuactiviity;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.clive.menuactiviity", appContext.getPackageName());
+        assertEquals("me.makamara.clive.menuactiviity", appContext.getPackageName());
     }
 }

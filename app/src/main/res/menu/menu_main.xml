@@ -1,10 +1,35 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.clive.menuactiviity.MainActivity">
+    tools:context="me.makamara.clive.menuactiviity.MainActivity">
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_one"
+        android:orderInCategory="100"
+        android:title="@string/action_one"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_two"
+        android:orderInCategory="100"
+        android:title="@string/action_two"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_three"
+        android:orderInCategory="100"
+        android:title="@string/action_three"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_four"
+        android:orderInCategory="100"
+        android:title="@string/action_four"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_five"
+        android:orderInCategory="100"
+        android:title="@string/action_five"
         app:showAsAction="never" />
 </menu>

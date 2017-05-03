@@ -1,4 +1,4 @@
-package com.example.clive.menuactiviity;
+package me.makamara.clive.menuactiviity;
 
 import org.junit.Test;
 
