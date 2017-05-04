@@ -3,7 +3,7 @@
     package="me.makamara.clive.menuactivity">
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -18,21 +18,90 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <intent-filter android:label="@string/home">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="menuactivity.makamara.me"
+                    android:pathPrefix="@string/url_main"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/host_main"
+                    android:scheme="makactivity" />
+
+            </intent-filter>
         </activity>
         <activity android:name="me.makamara.clive.menuactivity.SecondActivity">
-            <intent-filter>
+            <intent-filter android:label="@string/action_two">
                 <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="menuactivity.makamara.me"
+                    android:pathPrefix="@string/url_second"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/host_second"
+                    android:scheme="makactivity" />
 
             </intent-filter>
         </activity>
         <activity android:name="me.makamara.clive.menuactivity.ThirdActivity">
+            <intent-filter android:label="@string/action_three">
+                <action android:name="android.intent.action.VIEW" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="menuactivity.makamara.me"
+                    android:pathPrefix="@string/url_third"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/host_third"
+                    android:scheme="makactivity" />
+
+            </intent-filter>
         </activity>
         <activity android:name="me.makamara.clive.menuactivity.FourthActivity">
+            <intent-filter android:label="@string/action_four">
+                <action android:name="android.intent.action.VIEW" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="menuactivity.makamara.me"
+                    android:pathPrefix="@string/url_fourth"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/host_fourth"
+                    android:scheme="makactivity" />
+
+            </intent-filter>
         </activity>
         <activity android:name="me.makamara.clive.menuactivity.FifthActivity">
+            <intent-filter android:label="@string/action_five">
+                <action android:name="android.intent.action.VIEW" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="menuactivity.makamara.me"
+                    android:pathPrefix="@string/url_fifth"
+                    android:scheme="http" />
+                <data
+                    android:host="@string/host_fifth"
+                    android:scheme="makactivity" />
+
+            </intent-filter>
         </activity>
     </application>
 
